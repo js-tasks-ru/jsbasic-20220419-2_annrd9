@@ -59,7 +59,7 @@ export default class UserTable {
   delete(event) {
     if(event.target.tagName === 'BUTTON') {
       let btnRow = event.target.closest('tr');
-      
+
       btnRow.remove();
       }
   }
