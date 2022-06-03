@@ -35,7 +35,7 @@ export default class Modal {
     });
 
     this.keydownEvent = (event) => this.escapeEvent(event);
-    console.log(document.body.classList.contains('is-modal-open'));
+    document.body.classList.contains('is-modal-open');
     document.addEventListener('keydown', this.keydownEvent);
 
   }
