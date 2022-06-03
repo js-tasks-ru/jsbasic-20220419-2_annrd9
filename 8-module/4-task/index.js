@@ -139,11 +139,6 @@ export default class Cart {
 
     this.modal.setBody(this.modalBody);
 
-    // this.modal.elem.addEventListener('modal-close', () => {
-    //   this.modal = null;
-    //   this.modalBody = null;
-    // }); //его
-
     this.modal.open();
   }
 
@@ -162,7 +157,6 @@ export default class Cart {
     }
 
   }
-
 
   onProductUpdate(cartItem) {
     this.cartIcon.update(this);

@@ -39,7 +39,6 @@ export default class Cart {
     }
 
     if (cartItem.count === 0){
-      // this.cartItems.slice(this.cartItems.indexOf(cartItem), this.cartItems.indexOf(cartItem) + 1) //не работает
       this.cartItems.splice(this.cartItems.indexOf(cartItem), 1);
     }
 
@@ -63,7 +62,6 @@ export default class Cart {
   }
 
   onProductUpdate(cartItem) {
-    // реализуем в следующей задаче
 
     this.cartIcon.update(this);
   }
